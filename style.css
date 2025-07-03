@@ -1,0 +1,88 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: hsl(221, 100%, 96%);
+    padding: 0 0;
+    margin: 0 0;
+}
+
+@media (max-width:768px) {
+
+    .container {
+        padding:0 0;
+        margin: 0 0;
+        background-color: white;
+    }
+    .left {
+        color: white;
+        margin: 0 0;
+        background-color: hsla(256, 72%, 46%, 1);
+        text-align: center;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        height: 350px;
+
+        .circlep {
+            width: 100px;
+            height: 100px;
+            margin: 5px auto;
+            border-radius: 100px;
+            opacity: 0.8;
+            background-color: hsl(241, 81%, 54%);
+            padding-top:10px;
+        }
+
+    }
+    .right {
+        margin: 0 0;
+        color: black;
+        
+        .table {
+            margin: 0px auto;
+            padding: 15px 110px 15px 110px;
+            
+            .rblock {
+                background-color: hsl(0, 65%, 73%);
+                color: hsl(0, 100%, 67%);
+                border-radius: 20px;
+                margin-top:10px;
+                padding: 20px 40px 20px 40px;
+            }
+            .yblock {
+                background-color: hsl(39, 97%, 88%);
+                color:hsl(39, 100%, 56%);
+                border-radius: 20px;
+                margin-top: 10px;
+                padding: 20px 40px 20px 40px;
+            }
+            .gblock {
+                background-color: hsl(166, 46%, 72%);
+                color: hsl(166, 100%, 37%);
+                border-radius: 20px;
+                margin-top: 10px;
+                padding: 20px 40px 20px 40px;
+            }
+            .bblock {
+                background-color: hsl(234, 45%, 67%);
+                color: hsl(234, 85%, 45%);
+                border-radius: 20px;
+                margin-top: 10px;
+                padding: 20px 40px 20px 40px;
+            }
+        
+        .button {
+            color: white;
+            display: block;
+            width: 350px;
+            height: 60px;
+            margin-top: 10px;
+            border-radius: 40px;
+            background-color: hsl(224, 30%, 27%);
+            
+        }
+        .button:active {
+            background-color: hsl(241, 81%, 54%);
+        }     
+    }
+
+}
+}
